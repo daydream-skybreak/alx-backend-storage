@@ -1,0 +1,2 @@
+// this query shows the databases present in MongoDB
+show dbs
