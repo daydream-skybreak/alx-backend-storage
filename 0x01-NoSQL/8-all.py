@@ -10,6 +10,6 @@ def list_all(mongo_collection):
     """returns a list of the mongo collection"""
     coll = mongo_collection.find()
     coll_list = list(coll)
-    if len(coll) == 0:
+    if len(coll_list) == 0:
         return []
-    return coll
+    return coll_list
