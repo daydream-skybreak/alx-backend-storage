@@ -1,2 +1,2 @@
 //updates documents where name is Holberton school
-db.school.update({ "name": "Holberton school" }, { $push: { "address": "972 Mission Street" } }, { multi: true })
+db.school.update({ "name": "Holberton school" }, { $set: { "address": "972 Mission Street" } }, { multi: true })
