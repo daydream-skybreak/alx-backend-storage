@@ -7,6 +7,7 @@ a module to work with mongodb collection
 
 
 def list_all(mongo_collection):
+    """returns a list of the mongo collection"""
     if mongo_collection.count():
         return []
     return [i for i in mongo_collection.find()]
